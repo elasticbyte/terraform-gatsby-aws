@@ -1,6 +1,6 @@
 # Terraform Gatsby AWS
 
-A terraform module to provision AWS resources for Gatsby.
+A terraform module to provision AWS resources for Gatsby using S3, Cloudfront, and Route53.
 
 # Example
 
