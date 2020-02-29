@@ -3,11 +3,11 @@ resource "aws_s3_bucket" "bucket" {
   acl    = "public-read"
   policy = <<EOF
 {
-  "Id": "bucket_policy_site",
+  "Id": "bucket_policy_website",
   "Version": "2012-10-17",
   "Statement": [
     {
-      "Sid": "bucket_policy_site_main",
+      "Sid": "bucket_policy_website_main",
       "Action": [
         "s3:GetObject"
       ],
