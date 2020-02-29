@@ -7,8 +7,8 @@ A project by [Elastic Byte](https://elasticbyte.net). Built with :heart: in :gui
 ## Prerequisites 
 
 - An AWS account
-- A domain added to Route53
-- A SSL certificate provisioned in [ACM](https://aws.amazon.com/certificate-manager/) for the domain you wish to run Gatsby on. _Note, the ACM certificate must be in the `us-east-1` region for CloudFront._
+- A domain added to Route53 in AWS
+- A SSL certificate provisioned in AWS [ACM](https://aws.amazon.com/certificate-manager/) for the domain you wish to run Gatsby on. _Note, the ACM certificate must be in the `us-east-1` region for CloudFront._
 - Terraform version `0.12.20` or greater
 
 ## Example
