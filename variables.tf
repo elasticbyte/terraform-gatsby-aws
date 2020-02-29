@@ -1,9 +1,9 @@
 variable "route53_zone_id" {
-  description = "Route53 Zone id to create the DNS record for the Gatsby app"
+  description = "Route53 Zone id to create the DNS record for Gatsby"
 }
 
 variable "domain_name" {
-  description = "The domain to run the Gatsby app on"
+  description = "The domain to run Gatsby on"
 }
 
 variable "https_certificate_arn" {

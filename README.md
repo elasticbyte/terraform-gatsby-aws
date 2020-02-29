@@ -1,6 +1,6 @@
 # Terraform Gatsby AWS
 
-A terraform module to provision AWS resources for a Gatsby.
+A terraform module to provision AWS resources for Gatsby.
 
 # Example
 
