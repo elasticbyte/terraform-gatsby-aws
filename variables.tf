@@ -1,5 +1,5 @@
 variable "route53_zone_id" {
-  description = "Route53 Zone id to create the DNS record for Gatsby"
+  description = "Route53 zone id to create the DNS record for Gatsby"
 }
 
 variable "domain_name" {
